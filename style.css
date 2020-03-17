@@ -243,7 +243,6 @@ i.active {
 .information__inner {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 .information__item {
@@ -251,7 +250,7 @@ i.active {
     box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
     padding: 20px;
     margin-bottom: 30px;
-    /* margin-right: 23px; */
+    margin-right: 23px;
     min-width: 260px;
     transition: all .3s ease-out;
 }
