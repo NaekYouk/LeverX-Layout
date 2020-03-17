@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2:400,500,600,700,800&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d0a8eb8658.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <h3 class="header__title">LEVERX GROUP</h1>
+                        <h2 class="header__subtitle">EMPLOYEE SERVICES</h2>
+                </div>
+                <div class="user__content">
+                    <i class="fab fa-pushed"></i>
+                    <div class="user__container">
+                        <img class="user__img" src="./assets/img/userImg.jpg" alt="img" height="30px">
+                        <p>Vladislav Ustinovich</p>
+                    </div>
+                    <i class="fas fa-power-off"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ./Header -->
+
+    <!-- Main -->
+    <section class="main">
+        <div class="container">
+            <div class="main__inner">
+                <!-- Sidebar -->
+                <div class="sidebar">
+                    <h2 class="sidebar__search">basic search</h2>
+                    <div class="sidebar__inner">
+                        <div>
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                            <input class="sidebar__input" id="input-find" type="text" placeholder="John Doe/ Джон Доу">
+                        </div>
+                        <button id="btn-find" class="btn btn_find">Search</button>
+                    </div>
+                </div>
+                <!-- ./Sidebar -->
+
+                <!-- Information -->
+                <section class="information">
+                    <div class="informaion__brief">
+                        <p class="information__number" id="infNum">6 employees displayed</p>
+                        <div class="information__view">
+                            <i class="fas fa-th-large active" id="viewGrid"></i>
+                            <i class="fas fa-bars" id="viewTable"></i>
+                        </div>
+                    </div>
+
+                    <div class="information__header_line" id="info__header">
+                        <div class="inforation__header_photo"><i class="far fa-circle"></i><span>Photo</span></div>
+                        <div class="inforation__header_name"><i class="fas fa-user"></i><span>Name</span></div>
+                        <div class="inforation__header_departament"><i class="fas fa-briefcase"></i><span>Departament</span></div>
+                        <div class="inforation__header_room"><i class="fas fa-door-closed"></i><span>Room</span>
+                        </div>
+                    </div>
+
+                    <div class="information__inner" id="information__inner">
+                        <!-- SCRIPT CONTENT -->
+                    </div>
+                </section>
+                <!-- ./Information -->
+            </div>
+        </div>
+    </section>
+    <!-- ./Main -->
+
+
+    <!-- Footer -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
