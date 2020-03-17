@@ -209,7 +209,7 @@ i.fa-search+input {
 
 .information {
     margin-left: 30px;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .informaion__brief {
@@ -251,7 +251,14 @@ i.active {
     box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
     padding: 20px;
     margin-bottom: 30px;
+    margin-left: 23px;
     min-width: 260px;
+    transition: all .3s ease-out;
+}
+
+.information__item:hover {
+    transform: translate3d(1px, -5px, 0);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.2);
 }
 
 .information__bio {
@@ -344,8 +351,15 @@ i.active {
     min-width: 100%;
     display: flex;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    transition: transform .2s, box-shadow .2s ease-in-out;
 }
 
+.information__item_line:hover {
+    transform: translate3d(1px, -2px, 0);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+    /* LOL */
+    /* transform: rotate(360deg); */
+}
 .information__bio_line {
     width: 400px;
     display: flex;
