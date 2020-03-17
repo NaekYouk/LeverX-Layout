@@ -313,6 +313,7 @@ i.active {
     overflow: auto;
     background-color: #ffffff;
     margin-bottom: 10px;
+    padding: 10px 0;
     color: #6196f7;
     border-radius: 5px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
@@ -344,11 +345,11 @@ i.active {
 
 .information__item_line {
     background-color: #ffffff;
+    margin-left: 35px;
     padding: 7px 20px;
     margin-bottom: 3px;
     border-radius: 5px;
     width: 100%;
-    min-width: 100%;
     display: flex;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
     transition: transform .2s, box-shadow .2s ease-in-out;
