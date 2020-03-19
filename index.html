@@ -54,7 +54,7 @@
                 <!-- Information -->
                 <section class="information">
                     <div class="informaion__brief">
-                        <p class="information__number" id="infNum">6 employees displayed</p>
+                        <p class="information__number"><span id="infNum"></span> employees displayed</p>
                         <div class="information__view">
                             <i class="fas fa-th-large active" id="viewGrid"></i>
                             <i class="fas fa-bars" id="viewTable"></i>
@@ -64,7 +64,8 @@
                     <div class="information__header_line" id="info__header">
                         <div class="inforation__header_photo"><i class="far fa-circle"></i><span>Photo</span></div>
                         <div class="inforation__header_name"><i class="fas fa-user"></i><span>Name</span></div>
-                        <div class="inforation__header_departament"><i class="fas fa-briefcase"></i><span>Departament</span></div>
+                        <div class="inforation__header_departament"><i
+                                class="fas fa-briefcase"></i><span>Departament</span></div>
                         <div class="inforation__header_room"><i class="fas fa-door-closed"></i><span>Room</span>
                         </div>
                     </div>
@@ -81,6 +82,51 @@
 
 
     <!-- Footer -->
+    <!-- Templates -->
+    <template id="templateInfo">
+        <Article class="information__item">
+            <div class="information__bio">
+                <img src="https://placehold.it/150/333" alt="Photo" class="item__photo" width="150px">
+                <div>
+                    <h2 class="item__name itemName"></h2>
+                    <h3 class="item__name_native itemNameNative"></h3>
+                </div>
+            </div>
+            <div class="information__addition">
+                <div class="item__departament">
+                    <i class="fas fa-briefcase"></i>
+                    <span class="itemD"></span>
+                </div>
+                <div class="item__room">
+                    <i class="fas fa-door-closed"></i>
+                    <span class = "itemR"></span>
+                </div>
+            </div>
+        </Article>
+    </template>
+
+    <template id="templateInfoLine">
+        <Article class="information__item_line">
+            <div class="information__bio_line">
+                <img src="https://placehold.it/150/333" alt="Photo" class="item__photo_line"
+                    width="150px">
+                <div>
+                    <h2 class="item__name_line itemName"></h2>
+                    <h3 class="item__name_native_line itemNameNative"></h3>
+                </div>
+            </div>
+            <div class="information__addition_line">
+                <div class="item__departament_line">
+                    <i class="fas fa-briefcase"></i>
+                    <span class="itemD"></span>
+                </div>
+                <div class="item__room_line">
+                    <i class="fas fa-door-closed"></i>
+                    <span class = "itemR"></span>
+                </div>
+            </div>
+        </Article>
+    </template>
     <script src="./script.js"></script>
 </body>
 
