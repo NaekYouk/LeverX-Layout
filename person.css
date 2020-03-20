@@ -129,11 +129,9 @@ i.fa-power-off:hover {
     color: #2654ad;
     background-color: #ffffff;
 }
-
 /* ./HEADER */
 
 /* MAIN */
-
 .main {
     margin-top: 20px;    
     margin-bottom: 40px;
@@ -239,11 +237,9 @@ fieldset {
     color: #eef0f5;
     background-color: #646464;
 }
-
 /* ./SIDEBAR */
 
 /* INFORMATION */
-
 .information {
     margin-left: 5px;
     width: 100%;
@@ -308,11 +304,9 @@ fieldset {
 .general__prop a {
     text-decoration: none;
 }
-
-
 /* ./GENERAL INFO */
 
-
+/* EDIT DETAILS BTN*/
 .information__edit {
     display: flex;
     align-items: flex-start;
@@ -337,4 +331,7 @@ fieldset {
     color: #eef0f5;
     background-color: #6196f7;
 }
+/* ./EDIT DETAILS BTN*/
+
+
 /* ./INFORMATION */

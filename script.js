@@ -9,12 +9,10 @@ let visibleHeaderLine = document.getElementById("info__header"); //Видимо�
 let viewFlag = 0; //Определяет вид списка
 
 
-// debugger
 let DATA;
 fetch("data.json")
     .then(response => response.json())
     .then(json => DATA = Object.assign({}, json)).then(() => render());
-
 
 //Загружаем информацию на сайт
 function render(condition = '') {
@@ -48,7 +46,6 @@ function render(condition = '') {
 }
 
 
-
 //Обработка поиска
 inputFind.addEventListener('keyup', (e) => {
     if (e.key === "Enter")
@@ -56,7 +53,6 @@ inputFind.addEventListener('keyup', (e) => {
 });
 
 btnFind.addEventListener('click', () => render(inputFind.value));
-
 
 //Обработка кнопок вида списка
 viewGrid.addEventListener('click', () => {
@@ -73,6 +69,3 @@ viewTable.addEventListener('click', () => {
     visibleHeaderLine.style.display = "flex";
     render(inputFind.value);
 });
-
-
-// render();

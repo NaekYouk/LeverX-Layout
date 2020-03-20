@@ -34,5 +34,3 @@ function render() {
     hireDate.textContent = info.hireDate;
     status.textContent = info.status;
 }
-
-render();
