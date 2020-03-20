@@ -60,7 +60,7 @@ h6 {
 
 i.fa-pushed {
     font-size: 20px;
-    padding: 5px;
+    padding: 5px 7px;
     text-align: center;
     border-radius: 50%;
     background-color: #2654ad;
@@ -219,7 +219,7 @@ i.fa-search+input {
 }
 
 .information__view {
-    color: #cccccc;
+    color: #646464;
     font-size: 18px;
 }
 
@@ -278,7 +278,7 @@ i.active {
 .item__name_native {
     font-size: 15px;
     font-weight: 100;
-    color: #9b9b9b;
+    color: #999999;
 }
 
 .information__bio::after {
@@ -384,7 +384,7 @@ i.active {
     padding-top: 2px;
     font-size: 13px;
     font-weight: 100;
-    color: #9b9b9b;
+    color: #999999;
 }
 
 .information__addition_line {

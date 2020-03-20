@@ -1,0 +1,47 @@
+{
+    "member": [{
+            "name": "Egor",
+            "surname": "Petrov",
+            "nameNat": "Егор",
+            "surnameNat": "Петров",
+            "departament": "Web & Mobile",
+            "room": 311
+        },
+        {
+            "name": "Alexey",
+            "surname": "Vcherashniy",
+            "nameNat": "Алексей",
+            "surnameNat": "Вчерашний",
+            "departament": "Web & Mobile",
+            "room": 309
+        }, {
+            "name": "Vitaliy",
+            "surname": "Vlasov",
+            "nameNat": "Виталий",
+            "surnameNat": "Власов",
+            "departament": "Web & Mobile",
+            "room": 310
+        }, {
+            "name": "Elena",
+            "surname": "Myha",
+            "nameNat": "Елена",
+            "surnameNat": "Муха",
+            "departament": "Web & Mobile",
+            "room": 311
+        }, {
+            "name": "Alice",
+            "surname": "Belova",
+            "nameNat": "Алиса",
+            "surnameNat": "Белова",
+            "departament": "Web & Mobile",
+            "room": 311
+        }, {
+            "name": "Maxim",
+            "surname": "Pugach",
+            "nameNat": "Максим",
+            "surnameNat": "Пугач",
+            "departament": "Web & Mobile",
+            "room": 301
+        }
+    ]
+}

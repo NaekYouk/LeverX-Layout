@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="person.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2:400,500,600,700,800&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d0a8eb8658.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <h3 class="header__title">LEVERX GROUP</h1>
+                        <h2 class="header__subtitle">EMPLOYEE SERVICES</h2>
+                </div>
+                <div class="user__content">
+                    <i class="fab fa-pushed"></i>
+                    <div class="user__container">
+                        <img class="user__img" src="./assets/img/userImg.jpg" alt="img" height="30px">
+                        <p>Vladislav Ustinovich</p>
+                    </div>
+                    <i class="fas fa-power-off"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ./Header -->
+
+    <!-- Main -->
+    <section class="main">
+        <div class="container">
+            <!-- MAIN INNER -->
+            <div class="main__inner">
+                <!-- Sidebar -->
+                <div class="sidebar">
+                    <div class="sidebar__inner">
+                        <div class="slider__back">
+                            <i class="fas fa-chevron-left"></i>
+                        </div>
+                        <img src="https://placehold.it/150/333" alt="Photo" class="sidebar__photo" width="150px">
+                        <!-- Lines -->
+                        <fieldset>
+                            <legend class="sidebar__sex"><span id="sidebarSex"></span></legend>
+                        </fieldset>
+                        <!-- ./Lines -->
+                        <div class="sidebar__info">
+                            <h2 class="sidebar__name" id="sidebarName"></h2>
+                            <h3 class="sidebar__name_native" id="sidebarNameNat"></h3>
+                            <div class="sidebar__buttons">
+                                <button class="btn__id">ID <span id="sidebarID"></span></button>
+                                <button class="btn__busCard"><i class="far fa-address-card"></i> Bussiness card</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./Sidebar -->
+
+                <!-- Information -->
+                <section class="information">
+                    <div class="information__inner">
+                        <div class="information__general">
+                            <!-- GENERAL INFO -->
+                            <div class="general__section">
+                                <h2 class="general__title">GENERAL INFO</h2>
+                                <div class="general__info">
+                                    <div class="general__keys">
+                                        <p class="general__keys_item"><i class="fas fa-briefcase" aria-hidden="true"></i><span>Departament</span></p>
+                                        <p class="general__keys_item"><i class="fas fa-door-closed" aria-hidden="true"></i><span>Room</span></p>
+                                    </div>
+                                    <div class="general__prop">
+                                        <p class="general__prop_item" id="departament"></p>
+                                        <p class="general__prop_item" id="room"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- CONTACTS -->
+                            <div class="general__section">
+                                <h2 class="general__title">CONTACTS</h2>
+                                <div class="general__info">
+                                    <div class="general__keys">
+                                        <p class="general__keys_item"><i class="fas fa-phone"></i><span>Internal phone</span></p>
+                                        <p class="general__keys_item"><i class="fas fa-mobile-alt"></i><span>Mobile phone</span></p>
+                                        <p class="general__keys_item"><i class="fas fa-at"></i><span>Email</span></p>
+                                        <p class="general__keys_item"><i class="fab fa-skype"></i><span>Skype ID</span></p>
+                                        <p class="general__keys_item"><i class="fas fa-stroopwafel"></i><span>C-Number</span></p>
+                                    </div>
+                                    <div class="general__prop">
+                                        <p class="general__prop_item" id="phoneInt"></p>
+                                        <p class="general__prop_item" id="phoneMob"></p>
+                                        <p class="general__prop_item"><a href="mailto:adam.smith@leverx.com" id="email"></a></p>
+                                        <a class="general__prop_item"><a href="skype:+1234567890?call" id="skype"></a></p>
+                                        <p class="general__prop_item" id="cNum"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- PROFILE INFO -->
+                            <div class="general__section">
+                                <h2 class="general__title">PROFILE INFO</h2>
+                                <div class="general__info">
+                                    <div class="general__keys">
+                                        <p class="general__keys_item"><i class="fas fa-briefcase" aria-hidden="true"></i><span>Hire date</span></p>
+                                        <p class="general__keys_item"><i class="fas fa-door-closed" aria-hidden="true"></i><span>Status</span></p>
+                                    </div>
+                                    <div class="general__prop">
+                                        <p class="general__prop_item" id="hireDate"></p>
+                                        <p class="general__prop_item" id="status"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- EMPLOYMENT INFO -->
+
+                        </div>
+                        <div class="information__edit">
+                            <button class="information__edit_btn">EDIT DETAILS</button>
+                            <button class="information__edit_btn">EDIT DETAILS</button>
+                        </div>
+                    </div>
+                </section>
+                <!-- ./Information -->
+            </div>
+            <!-- ./MAIN INNER -->
+        </div>
+    </section>
+
+    <script src="./scriptPerson.js"></script>
+</body>
+
+</html>

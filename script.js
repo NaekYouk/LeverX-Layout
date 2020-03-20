@@ -1,51 +1,3 @@
-DATA = {
-    member: [{
-            name: "Egor",
-            surname: "Petrov",
-            nameNat: "Егор",
-            surnameNat: "Петров",
-            departament: "Web & Mobile",
-            room: 311
-        },
-        {
-            name: "Alexey",
-            surname: "Vcherashniy",
-            nameNat: "Алексей",
-            surnameNat: "Вчерашний",
-            departament: "Web & Mobile",
-            room: 309
-        }, {
-            name: "Vitaliy",
-            surname: "Vlasov",
-            nameNat: "Виталий",
-            surnameNat: "Власов",
-            departament: "Web & Mobile",
-            room: 310
-        }, {
-            name: "Elena",
-            surname: "Myha",
-            nameNat: "Елена",
-            surnameNat: "Муха",
-            departament: "Web & Mobile",
-            room: 311
-        }, {
-            name: "Alice",
-            surname: "Belova",
-            nameNat: "Алиса",
-            surnameNat: "Белова",
-            departament: "Web & Mobile",
-            room: 311
-        }, {
-            name: "Maxim",
-            surname: "Pugach",
-            nameNat: "Максим",
-            surnameNat: "Пугач",
-            departament: "Web & Mobile",
-            room: 301
-        },
-    ]
-};
-
 //Связываем переменные и элементы DOM 
 let informationInner = document.getElementById("information__inner");
 let btnFind = document.getElementById("btn-find");
@@ -55,6 +7,14 @@ let viewGrid = document.getElementById("viewGrid");
 let viewTable = document.getElementById("viewTable");
 let visibleHeaderLine = document.getElementById("info__header"); //Видимость заголовка строчного списка
 let viewFlag = 0; //Определяет вид списка
+
+
+// debugger
+let DATA;
+fetch("data.json")
+    .then(response => response.json())
+    .then(json => DATA = Object.assign({}, json)).then(() => render());
+
 
 //Загружаем информацию на сайт
 function render(condition = '') {
@@ -115,4 +75,4 @@ viewTable.addEventListener('click', () => {
 });
 
 
-render();
+// render();

@@ -1,0 +1,19 @@
+{
+    "member": {
+        "id": 123,
+        "sex": "Mr",
+        "name": "Andrey",
+        "surname": "Petrov",
+        "nameNat": "Андрей",
+        "surnameNat": "Смирнов",
+        "departament": "Web & Mobile",
+        "room": 311,
+        "phoneInternal": 123,
+        "phonMob": "+375 33 1234567",
+        "email": "adam.smith@leverx.com",
+        "skype": "a.smith",
+        "cNum": "C5200001",
+        "hireDate": "12 Jan 2010",
+        "status": "Active"
+        }
+}
